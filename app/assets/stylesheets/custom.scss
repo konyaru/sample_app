@@ -1,6 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+<<<<<<< HEAD
 /* mixins, variables, etc. */
 
 $gray-medium-light: #eaeaea;
@@ -21,6 +22,8 @@ $gray-medium-light: #eaeaea;
   @include box_sizing;
 }
 
+=======
+>>>>>>> 32fbf66510856e46aa992f98de0dd927c5e2e070
 /* universal */
 
 body {
@@ -37,9 +40,16 @@ textarea {
 
 .center {
   text-align: center;
+<<<<<<< HEAD
   h1 {
     margin-bottom: 10px;
   }
+=======
+}
+
+.center h1 {
+  margin-bottom: 10px;
+>>>>>>> 32fbf66510856e46aa992f98de0dd927c5e2e070
 }
 
 /* typography */
@@ -61,7 +71,11 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
+<<<<<<< HEAD
   color: $gray-light;
+=======
+  color: #777;
+>>>>>>> 32fbf66510856e46aa992f98de0dd927c5e2e070
 }
 
 p {
@@ -69,22 +83,37 @@ p {
   line-height: 1.7em;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 32fbf66510856e46aa992f98de0dd927c5e2e070
 /* header */
 
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
+<<<<<<< HEAD
   color: white;
+=======
+  color: #fff;
+>>>>>>> 32fbf66510856e46aa992f98de0dd927c5e2e070
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+<<<<<<< HEAD
   &:hover {
     color: white;
     text-decoration: none;
   }
+=======
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+>>>>>>> 32fbf66510856e46aa992f98de0dd927c5e2e070
 }
 
 /* footer */
@@ -92,6 +121,7 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
+<<<<<<< HEAD
   border-top: 1px solid $gray-medium-light;
   color: $gray-light;
   a {
@@ -162,3 +192,31 @@ input, textarea, select, .uneditable-input {
 input {
   height: auto !important;
 }
+=======
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
+
+>>>>>>> 32fbf66510856e46aa992f98de0dd927c5e2e070

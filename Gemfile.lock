@@ -42,7 +42,10 @@ GEM
     arel (8.0.0)
     autoprefixer-rails (9.7.4)
       execjs
+<<<<<<< HEAD
     bcrypt (3.1.12)
+=======
+>>>>>>> 32fbf66510856e46aa992f98de0dd927c5e2e070
     bindex (0.8.1)
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
@@ -61,7 +64,7 @@ GEM
     crass (1.0.6)
     erubi (1.9.0)
     execjs (2.7.0)
-    ffi (1.11.3)
+    ffi (1.12.1)
     formatador (0.2.5)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -89,7 +92,7 @@ GEM
     loofah (2.4.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
-    lumberjack (1.1.1)
+    lumberjack (1.2.1)
     mail (2.7.1)
       mini_mime (>= 0.1.1)
     method_source (0.9.2)
@@ -113,7 +116,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     puma (3.12.2)
-    rack (2.1.1)
+    rack (2.1.2)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (5.1.7)
@@ -197,7 +200,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+<<<<<<< HEAD
   bcrypt (= 3.1.12)
+=======
+>>>>>>> 32fbf66510856e46aa992f98de0dd927c5e2e070
   bootstrap-sass (= 3.3.7)
   byebug (= 9.0.6)
   coffee-rails (~> 4.2)

@@ -93,7 +93,7 @@ Rails.application.configure do
 	config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
 	host = 'floating-stream-88485.herokuapp.com'
-	ction_mailer.default_url_options = { host: host }
+	config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
     :port           => '587',
